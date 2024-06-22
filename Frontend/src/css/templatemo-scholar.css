@@ -1,0 +1,275 @@
+/* 
+---------------------------------------------
+font & reset css
+--------------------------------------------- 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+/* 
+---------------------------------------------
+reset
+--------------------------------------------- 
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1e1e1e;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+/* 
+---------------------------------------------
+Global Styles
+--------------------------------------------- 
+*/
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  background-color: #1078f0;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background-color: #1078f0;
+  color: #ffffff;
+}
+
+.section {
+  padding-top: 30px;
+  margin-top: 120px;
+}
+
+.section-heading {
+  margin-bottom: 60px;
+}
+
+.section-heading h2 {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 20px 0;
+  line-height: 44px;
+}
+
+.section-heading h2 em {
+  color: #3e66b0;
+  font-style: normal;
+}
+
+.section-heading h6 {
+  color: #3e66b0;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.main-button a {
+  display: inline-block;
+  background-color: #fff;
+  color: #3e66b0;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 25px;
+  border-radius: 20px;
+  transition: all .3s;
+}
+
+.main-button a:hover {
+  background-color: #3e66b0;
+  color: #fff;
+}
+
+
+/* 
+---------------------------------------------
+Courses Style
+--------------------------------------------- 
+*/
+
+.courses {
+  margin-top: 0px;
+}
+
+.event_filter {
+  text-align: center;
+}
+
+.event_filter {
+  background-color: #f1f0fe;
+  border-radius: 50px;
+  padding: 15px 40px;
+  list-style: none;
+  margin: 0 auto 70px;
+  max-width: max-content;
+}
+
+.event_filter li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.event_filter li a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1e1e1e;
+  transition: all .3s;
+}
+
+.event_filter li
+
+.event_filter li a.is_active,
+.event_filter li a:hover {
+  color: #3e66b0;
+}
+
+.events_item .thumb {
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.events_item .thumb img {
+  margin-bottom: -5px;
+}
+
+.events_item .thumb span.category {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3e66b0;
+  background-color: rgba(250, 250, 250, 0.95);
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.events_item .thumb span.price {
+  position: absolute;
+  right: -30px;
+  top: -50px;
+  background-color: #3e66b0;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.events_item .thumb span.price h6 {
+  margin-top: 65px;
+  margin-left: 29px;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+
+.events_item .thumb span.price em {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  vertical-align: top;
+}
+
+.events_item {
+  background-color: #908f9221;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+} 
+
+.events_item .down-content {
+  padding: 20px 30px 25px 30px;
+  cursor: pointer;
+}
+
+.events_item .down-content span.author {
+  color: #3e66b0;
+  font-size: 15px;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.events_item .down-content h4 {
+  font-size: 22px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.events_item:hover .down-content h4 {
+  color: #3e66b0;
+}
+
+.events_item:hover .thumb span.price {
+  transform: scale(1.2);
+}
+
+
+/*
+---------------------------------------------
+Responsive Style
+--------------------------------------------- 
+*/
+
+body {
+  overflow-x: hidden;
+}
+
+
+
+@media (max-width: 992px) {
+
+  .courses {
+    margin-top: 0px;
+  }
+  .event_filter ul li {
+    display: block;
+    margin: 12px 5px;
+  }
+  
+  
+}
+
+@media (max-width: 600px) {
+
+.slider-container {
+  max-width: 100%;
+  overflow: hidden; /* Ensure the slider doesn't overflow its container */
+}
+}
+
+@media (min-width: 490px) and (max-width: 768px) {
+  .full-width-img img {
+    width: 100%;
+  }
+}
