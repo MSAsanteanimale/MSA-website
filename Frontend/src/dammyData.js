@@ -1076,22 +1076,6 @@ export const products = [
         "filter": "ciseaux"
     },
     {
-        "src": "",
-        "category": "Chirurgie",
-        "target": "Usages divers",
-        "title": "",
-        "promotion": false,
-        "topSale": false,
-        "newProduct": false,
-        "srcSP": "",
-        "subtitle": "",
-        "description": "",
-        "specification": "",
-        "in_stock": true,
-        "promotionOffer": "",
-        "filter": "ciseaux"
-    },
-    {
         "src": "https://res.cloudinary.com/dgizp0ygl/image/upload/v1718871956/Products/Manche_de_Bistouri_dwtmpr.webp",
         "category": "Chirurgie",
         "target": "Usages divers",
