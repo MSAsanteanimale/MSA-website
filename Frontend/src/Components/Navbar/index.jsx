@@ -9,7 +9,7 @@ const Navbar = ({ setSelectedCategories, setIsLoading }) => {
   const navigate = useNavigate()
   const location = useLocation();
   const currentPath = location.pathname;
-  const msaCart = JSON.parse(localStorage.getItem("MSAcart"));
+  const msaCart = JSON.parse(localStorage.getItem("MSAcart")) || [];
 
   useEffect(() => {
     const handleScroll = () => {
