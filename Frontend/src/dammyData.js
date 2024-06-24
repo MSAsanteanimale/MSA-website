@@ -1,5 +1,4 @@
 
-
 import genia from './img/partners/genia.png'
 import imv from './img/partners/imv.png'
 import spermex from './img/partners/spermex.png'

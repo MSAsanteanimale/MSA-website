@@ -127,7 +127,7 @@ const Checkout = ({ setIsLoading, toggle, setTogle }) => {
                 </div>
                 <div className="col-lg-12">
                   <div className="checkout__form__input">
-                    <p>Remarques sur la commande <span>*</span></p>
+                    <p>Remarques sur la commande</p>
                     <input type="text" placeholder="Remarque concernant votre commande" value={note} onChange={(e) => setNote(e.target.value)} />
                   </div>
                 </div>

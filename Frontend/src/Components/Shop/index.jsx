@@ -5,13 +5,11 @@ import '../../css/templatemo-scholar.css';
 import cart from '../../img/products/cart.png';
 import SideBar from './sideBar';
 
-const Shop = ({ sideBarOpen, setSideBarOpen, products, setShowModal, selectedCategories, setSelectedCategories}) => {
+const Shop = ({ sideBarOpen, setSideBarOpen, products, setShowModal, selectedCategories, setSelectedCategories, toggle, setToggle}) => {
     const navigate = useNavigate()
 
     // ******************** filter states *********************
     var filteredProducts = products
-    const [toggle, setToggle] = useState(false);
-
 
     if (selectedCategories.length === 0) {
         filteredProducts = products;
@@ -145,6 +143,7 @@ const Shop = ({ sideBarOpen, setSideBarOpen, products, setShowModal, selectedCat
         setShowModal(true)
     };
 
+    const domainName = process.env.REACT_APP_DOMAIN_NAME;
     return (
         <>
             <SideBar setSideBarOpen={setSideBarOpen} sideBarOpen={sideBarOpen} selectedCategories={selectedCategories} setSelectedCategories={setSelectedCategories} toggle={toggle} setToggle={setToggle} products={products} setCurrentPage = {setCurrentPage}/>
@@ -180,6 +179,32 @@ const Shop = ({ sideBarOpen, setSideBarOpen, products, setShowModal, selectedCat
                         ))}
 
                     </div>
+                    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+                        {
+                          "@context": "https://schema.org",
+                          "@type": "ItemList",
+                          "itemListElement": [
+                            ${filteredProducts.map((product, index) => `
+                              {
+                                "@type": "ListItem",
+                                "position": ${index + 1},
+                                "item": {
+                                  "@type": "Product",
+                                  "name": "${product.title}",
+                                  "description": "${product.description}",
+                                  "image": "${product.src}",
+                                  "url": "${domainName}/product/${product.title}/${product.id}",
+                                  "offers": {
+                                    "@type": "Offer",
+                                    "url": "${domainName}/product/${product.title}/${product.id}",
+                                    "availability": "https://schema.org/${product.in_stock ? "En stock" : "En rupture de stock"}"
+                                  }
+                                }
+                              }
+                            `).join(',')}
+                          ]
+                        }
+                    ` }} />
                 </div>
                 <div className="pagination__items">
                     <div className="col-lg-12 text-center">

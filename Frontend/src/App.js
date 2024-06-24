@@ -65,15 +65,15 @@ function App() {
       <OrderPopUp showModal={showModal} setShowModal={setShowModal}/>
       <Navbar setSelectedCategories={setSelectedCategories} setIsLoading = {setIsLoading}/>
       <Routes>
-        <Route path="/" element={<HomePage products={products} banner={banner} setShowModal={setShowModal}/>} />
-        <Route path="/boutique" element={<Shop sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} products={products} setShowModal={setShowModal} setSelectedCategories={setSelectedCategories} selectedCategories={selectedCategories}/>}/>
+        <Route path="/" element={<HomePage products={products} banner={banner} setShowModal={setShowModal} toggle = {toggle}/>} />
+        <Route path="/boutique" element={<Shop sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen} products={products} setShowModal={setShowModal} setSelectedCategories={setSelectedCategories} selectedCategories={selectedCategories} toggle = {toggle} setToggle = {setTogle}/>}/>
         <Route path="/product/:name/:id" element={<ProductDetails products={products} banner={banner}/>}/>
         <Route path="/contact" element={<Contact/>} />
         <Route path="/panier" element={<Cart toggle = {toggle} setTogle = {setTogle}/>} />
         <Route path="/checkout" element={<Checkout setIsLoading={setIsLoading} toggle = {toggle} setTogle = {setTogle}/>} />
         <Route path="/commande-succès-page" element={ <Success />}/>
       </Routes>
-      <Footer />
+      <Footer setSelectedCategories={setSelectedCategories} setIsLoading = {setIsLoading} toggle = {toggle} setTogle = {setTogle}/>
     </div>
     </OverlayWrapper>
   );

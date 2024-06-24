@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { addToMSAcart } from '../../HelperFunctions/utility.js';
 import { useNavigate } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import "./Single.css";
 
 const ProductDetails = ({ products, banner }) => {
@@ -36,8 +37,41 @@ const ProductDetails = ({ products, banner }) => {
     navigate("/panier");
   };
 
+  const domainName = process.env.REACT_APP_DOMAIN_NAME;
+
   return (
     <section className="product-details spad whiteColor">
+      <Helmet>
+        <title>{`${product.title} - MSA Santé Animale`}</title>
+        <meta name="description" content={product.description} />
+        <meta property="og:title" content={`${product.title} - MSA Santé Animale`} />
+        <meta property="og:description" content={product.description} />
+        <meta property="og:image" content={product.srcSP} />
+        <meta property="og:url" content={`${domainName}/product/${product.title}/${product.id}`} />
+        <meta property="og:type" content="product.item" />
+
+        {/* Schema.org Markup */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: `
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "${product.title}",
+            "description": "${product.description}",
+            "image": "${product.srcSP}",
+            "url": "${domainName}/product/${product.title}/${product.id}",
+            "brand": {
+              "@type": "Brand",
+              "name": "MSA Santé Animale"
+            },
+            "offers": {
+              "@type": "Offer",
+              "url": "${domainName}/product/${product.title}/${product.id}",
+              "availability": "https://schema.org/${product.in_stock ? "En stock" : "En rupture de stock"}"
+            }
+          }
+        ` }} />
+      </Helmet>
       <div className="container">
         <div className="row">
           <div className="col-lg-6">

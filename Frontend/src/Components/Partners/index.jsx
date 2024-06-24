@@ -37,7 +37,7 @@ const Partners = () => {
     };
 
     return (
-        <div className="container-xxl py-5 whiteColor">
+        <div className="container-xxl py-5 whiteColor" id ="partners">
             <div className="container">
                 <div className="text-center mx-auto wow fadeInUp display-6" >
                     <h1 className="mb-5">NOS PARTENAIRES</h1>

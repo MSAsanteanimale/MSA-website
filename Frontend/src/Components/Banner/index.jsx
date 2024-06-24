@@ -55,7 +55,7 @@ const Banner = ({banner}) => {
                 )
                 )}
             </Slider>
-            <div className="container-xxl py-5 whiteColor">
+            <div className="container-xxl py-5 whiteColor" id="about-us-section">
                 <div className="container">
                     <div className="row g-5 align-items-center">
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
