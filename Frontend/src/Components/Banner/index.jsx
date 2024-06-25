@@ -42,7 +42,7 @@ const Banner = ({banner}) => {
                             <div className="row g-5 align-items-center">
                                 <div className="col-lg-6">
                                     <h1 className="display-5 mb-3 animated slideInDown">{e.title}</h1>
-                                    <p className="animated slideInDown">{e.description}</p>
+                                    <p className="animated slideInDown">{e.description.slice(0,237)+ " ..."}</p>
                                     <a className="btn btn-primary py-3 px-4 animated slideInDown" onClick={()=>navigate(`/product/${e.title}/${e.id}`)}>En savoir plus</a>
                                 </div>
                                 <div className="col-lg-6 animated fadeIn">

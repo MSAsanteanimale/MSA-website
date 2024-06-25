@@ -136,7 +136,7 @@ const ProductDetails = ({ products, banner }) => {
                 </li>
                 {spec.length > 1 && (
                   <li className="nav-item">
-                    <a className={`nav-link ${!desPga ? 'active' : ''}`} onClick={() => setDesPage(false)}>Spécification</a>
+                    <a className={`nav-link ${!desPga ? 'active' : ''}`} onClick={() => setDesPage(false)}>{product.id<100000 ?"Spécification" : "Index"}</a>
                   </li>
                 )}
               </ul>
@@ -147,7 +147,7 @@ const ProductDetails = ({ products, banner }) => {
                 </div>
                 {spec.length > 1 && (
                   <div className={`tab-pane ${!desPga ? 'active' : ''}`}>
-                    <h6>Specification</h6>
+                    <h6>{product.id<100000 ? "Spécification" : "Index"}</h6>
                     <div className="spec-table-wrapper">
                       <table className="spec-table">
                         <thead className="spec-table-head">

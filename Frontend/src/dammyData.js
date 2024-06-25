@@ -18,7 +18,7 @@ export const banner = [
         description: "Plongez dans l'univers de la race Holstein, réputée pour sa qualité laitière inégalée. Nos taureaux Holstein vous offrent l'excellence génétique nécessaire pour optimiser la production laitière et assurer la rentabilité de votre élevage.",
         specification: '',
         in_stock: true,
-        promotionOffer: "10% Remise",
+        promotionOffer: "",
 
     },
     {
@@ -30,7 +30,7 @@ export const banner = [
         description: "Découvrez notre gamme de semences Montbéliarde, symbole de robustesse et de performance. Des géniteurs qui transmettent leur puissance à chaque génération, garantissant des troupeaux solides et prospères.",
         specification: '',
         in_stock: true,
-        promotionOffer: "10% Remise",
+        promotionOffer: "",
     },
     {
         id: 100002,
@@ -41,7 +41,47 @@ export const banner = [
         description: "Explorez notre sélection de semences Brown Swiss, un héritage de tradition et de fiabilité. Ces taureaux, reconnus pour leur rusticité et leur adaptabilité, sont les partenaires idéaux pour garantir le succès de votre élevage.",
         specification: '',
         in_stock: true,
-        promotionOffer: "10% Remise",
+        promotionOffer: "",
+    },
+    {
+        "srcSP": "https://res.cloudinary.com/dgizp0ygl/image/upload/v1719315179/Banners/Andaman_nzlcth.webp",
+        "title": "Andaman : Production et Longévité",
+        "promotion": false,
+        "subtitle": "Semence animale congelée de la race Brown Swiss",
+        "description": "Andaman est un taureau exceptionnel de la race Brown Swiss qui combine une production élevée et des traits fonctionnels solides, rendant son héritage précieux pour toute exploitation laitière. Andaman se distingue par ses excellentes caractéristiques génétiques, particulièrement dans le domaine de la production laitière. Avec un index global (GZW) de 134, il excelle dans la plupart des critères importants pour les éleveurs.",
+        "specification": "[{\" Caractéristique\":\"GZW\",\"Valeur (Index)\":\"134\",\"Analyse\":\"Très bonne note globale, indiquant des caractéristiques génétiques très favorables.\"},{\" Caractéristique\":\"Index lait (MW)\",\"Valeur (Index)\":\"119\",\"Analyse\":\"Très bon indice, montrant une forte capacité de production laitière.\"},{\" Caractéristique\":\"Lait\",\"Valeur (Index)\":\"+797 kg\",\"Analyse\":\"Augmentation significative de la production laitière par rapport à la moyenne.\"},{\" Caractéristique\":\"Protéines\",\"Valeur (Index)\":\"-0.06 % (+23 kg)\",\"Analyse\":\"Légère diminution en pourcentage, mais augmentation notable en kg, favorable pour la production.\"},{\" Caractéristique\":\"Matières grasses\",\"Valeur (Index)\":\"-0.01 % (+33 kg)\",\"Analyse\":\"Légère diminution en pourcentage, mais augmentation en kg, ce qui est positif pour la production.\"},{\" Caractéristique\":\"Valeur bouchère\",\"Valeur (Index)\":\"98\",\"Analyse\":\"Note moyenne, indiquant une qualité de viande correcte.\"},{\" Caractéristique\":\"FIT (Fonctionnalité)\",\"Valeur (Index)\":\"113\",\"Analyse\":\"Excellente note, montrant de très bonnes caractéristiques fonctionnelles.\"},{\" Caractéristique\":\"Longévité\",\"Valeur (Index)\":\"105\",\"Analyse\":\"Indique que les filles de ce taureau vivent plus longtemps que la moyenne.\"},{\" Caractéristique\":\"Santé mamelle\",\"Valeur (Index)\":\"104\",\"Analyse\":\"Bonne santé de la mamelle, réduisant les risques de maladies comme la mammite.\"},{\" Caractéristique\":\"Facilité de naissance\",\"Valeur (Index)\":\"101\",\"Analyse\":\"Note moyenne, montrant que ce taureau ne pose pas de problèmes particuliers pour la naissance des veaux.\"},{\" Caractéristique\":\"Facilité de vêlage\",\"Valeur (Index)\":\"103\",\"Analyse\":\"Bonne facilité de vêlage, réduisant les risques de complications lors du vêlage.\"},{\" Caractéristique\":\"Persistance\",\"Valeur (Index)\":\"114\",\"Analyse\":\"Excellente persistance de la production laitière tout au long de la lactation.\"},{\" Caractéristique\":\"Cellules somatiques\",\"Valeur (Index)\":\"101\",\"Analyse\":\"Bon niveau de santé, un faible nombre de cellules somatiques est souhaitable.\"},{\" Caractéristique\":\"Fertilité maternelle\",\"Valeur (Index)\":\"111\",\"Analyse\":\"Très bonne fertilité des filles de ce taureau.\"},{\" Caractéristique\":\"Vitesse de traite\",\"Valeur (Index)\":\"87\",\"Analyse\":\"Vitesse de traite plus lente que la moyenne, peut être un inconvénient selon les priorités de l'exploitation.\"},{\" Caractéristique\":\"Comportement de traite\",\"Valeur (Index)\":\"109\",\"Analyse\":\"Bon comportement de traite, essentiel pour une gestion efficace de l'exploitation.\"},{\" Caractéristique\":\"Santé des sabots\",\"Valeur (Index)\":\"92\",\"Analyse\":\"Légèrement en dessous de la moyenne, possible attention nécessaire pour les sabots.\"}]",
+        "in_stock": true,
+        "promotionOffer": "",
+    },
+    {
+        "srcSP": "https://res.cloudinary.com/dgizp0ygl/image/upload/v1719321435/Banners/Hallodri_ghdqxo.webp",
+        "title": "Hallodri: qualité et robustesse",
+        "promotion": false,
+        "subtitle": "Semence animale congelée de la race Brown Swiss",
+        "description": "Hallodri se distingue par ses excellentes performances globales, avec un GZW de 126, témoignant de sa supériorité en production laitière et en qualité de viande. Ses filles produisent en moyenne 1034 kg de lait supplémentaires, avec des gains significatifs en matière grasse et en protéines, ce qui est idéal pour les éleveurs laitiers. De plus, Hallodri offre une bonne longévité et une santé mammaire exceptionnelle, garantissant des vaches robustes et productives sur le long terme. Sa bonne musculature et ses talons épais contribuent à des veaux solides et bien conformés. En choisissant Hallodri, vous investissez dans un taureau qui combine qualité, performance et robustesse, répondant ainsi aux exigences des éleveurs modernes.Explorez notre sélection de semences Brown Swiss, un héritage de tradition et de fiabilité. Ces taureaux, reconnus pour leur rusticité et leur adaptabilité, sont les partenaires idéaux pour garantir le succès de votre élevage.",
+        "specification": "[{\" Caractéristique\":\"GZW\",\"Valeur (Index)\":\"126\",\"Analyse\":\"Très bonne note globale, indiquant des caractéristiques génétiques très favorables.\"},{\" Caractéristique\":\"Index lait (MW)\",\"Valeur (Index)\":\"113\",\"Analyse\":\"Bon indice, montrant une forte capacité de production laitière.\"},{\" Caractéristique\":\"Lait\",\"Valeur (Index)\":\"+1034 kg\",\"Analyse\":\"Augmentation significative de la production laitière par rapport à la moyenne.\"},{\" Caractéristique\":\"Protéines\",\"Valeur (Index)\":\"-0.13% (+26 kg)\",\"Analyse\":\"Légère diminution en pourcentage, mais augmentation notable en kg, favorable pour la production.\"},{\" Caractéristique\":\"Matières grasses\",\"Valeur (Index)\":\"-0.37 % (+11 kg)\",\"Analyse\":\"Légère diminution en pourcentage, mais augmentation en kg, ce qui est positif pour la production.\"},{\" Caractéristique\":\"Valeur bouchère\",\"Valeur (Index)\":\"115\",\"Analyse\":\"Bonne qualité de la viande des veaux issus de ce taureau\"},{\" Caractéristique\":\"FIT (Fonctionnalité)\",\"Valeur (Index)\":\"109\",\"Analyse\":\"Bonne note, montrant de bonnes caractéristiques fonctionnelles.\"},{\" Caractéristique\":\"Longévité\",\"Valeur (Index)\":\"102\",\"Analyse\":\"Les filles de ce taureau vivent un peu plus longtemps que la moyenne.\"},{\" Caractéristique\":\"Santé mamelle\",\"Valeur (Index)\":\"102\",\"Analyse\":\"Bonne santé de la mamelle, réduisant les risques de maladies comme la mammite.\"},{\" Caractéristique\":\"Facilité de naissance\",\"Valeur (Index)\":\"103\",\"Analyse\":\"Note moyenne, montrant que ce taureau ne pose pas de problèmes particuliers pour la naissance des veaux.\"},{\" Caractéristique\":\"Facilité de vêlage\",\"Valeur (Index)\":\"99\",\"Analyse\":\"Note moyenne, réduisant les risques de complications lors du vêlage.\"},{\" Caractéristique\":\"Persistance\",\"Valeur (Index)\":\"111\",\"Analyse\":\"Excellente persistance de la production laitière tout au long de la lactation.\"},{\" Caractéristique\":\"Cellules somatiques\",\"Valeur (Index)\":\"104\",\"Analyse\":\"Bon niveau de santé, un faible nombre de cellules somatiques est souhaitable.\"},{\" Caractéristique\":\"Fertilité maternelle\",\"Valeur (Index)\":\"107\",\"Analyse\":\"Bonne fertilité des filles de ce taureau.\"},{\" Caractéristique\":\"Vitesse de traite\",\"Valeur (Index)\":\"109\",\"Analyse\":\"Vitesse de traite rapide, peut être un avantage selon les priorités de l'exploitation.\"},{\" Caractéristique\":\"Comportement de traite\",\"Valeur (Index)\":\"97\",\"Analyse\":\"Note moyenne. Le comportement pourrait être meilleur lors de la traite\"},{\" Caractéristique\":\"Santé des sabots\",\"Valeur (Index)\":\"92\",\"Analyse\":\"Légèrement en dessous de la moyenne, possible attention nécessaire pour les sabots.\"}]",
+        "in_stock": true,
+        "promotionOffer": ""
+    },
+    {
+        srcSP: "https://res.cloudinary.com/dgizp0ygl/image/upload/v1719324408/Banners/Vassri_eb6aho.webp",
+        title: "Vassri: production laitière exceptionnelle",
+        promotion: false,
+        subtitle: "Semence animale congelée de la race Brown Swiss",
+        description: "Vassri est un choix exceptionnel pour tout éleveur cherchant à améliorer son troupeau. Avec un GZW de 134, il se distingue par une production laitière impressionnante, ajoutant en moyenne 925 kg de lait par lactation, ainsi qu'une excellente santé mammaire et une persistance de production remarquable. Ses filles, dotées de variantes génétiques recherchées comme la Kappa Caséine BB et la Bêta Caséine A2A2, présentent une vitalité et une fertilité accrues, garantissant des vaches robustes et productives. De plus, Vassri affiche un excellent comportement à la traite et une bonne fonctionnalité générale, faisant de lui un investissement judicieux pour maximiser la rentabilité et la qualité de l'élevage.",
+        specification: "[{\" Caractéristique\":\"GZW\",\"Valeur (Index)\":\"134\",\"Analyse\":\"Un GZW très élevé indique que Vassri a des performances globales exceptionnelles.\"},{\" Caractéristique\":\"Index lait (MW)\",\"Valeur (Index)\":\"121\",\"Analyse\":\"Très Bon indice, montrant que les filles de Vassri produisent beaucoup plus de lait que la moyenne.\"},{\" Caractéristique\":\"Lait\",\"Valeur (Index)\":\"+925 kg\",\"Analyse\":\"Augmentation significative de la production laitière par rapport à la moyenne.\"},{\" Caractéristique\":\"Protéines\",\"Valeur (Index)\":\"-0.10% (+24 kg)\",\"Analyse\":\"Légère diminution en pourcentage, mais augmentation notable en kg, favorable pour la production.\"},{\" Caractéristique\":\"Matières grasses\",\"Valeur (Index)\":\"+0.04 % (+42 kg)\",\"Analyse\":\"Augmentation notable en termes de quantité de matière grasse.\"},{\" Caractéristique\":\"Valeur bouchère\",\"Valeur (Index)\":\"101\",\"Analyse\":\"Qualité acceptable de la viande des veaux issus de ce taureau.\"},{\" Caractéristique\":\"FIT (Fonctionnalité)\",\"Valeur (Index)\":\"108\",\"Analyse\":\"Bonne note, montrant de bonnes caractéristiques fonctionnelles.\"},{\" Caractéristique\":\"Longévité\",\"Valeur (Index)\":\"102\",\"Analyse\":\"Les filles de ce taureau vivent un peu plus longtemps que la moyenne.\"},{\" Caractéristique\":\"Santé mamelle\",\"Valeur (Index)\":\"105\",\"Analyse\":\"Excellente santé des mamelles.\"},{\" Caractéristique\":\"Facilité de naissance\",\"Valeur (Index)\":\"104\",\"Analyse\":\"Pas de problèmes particuliers pour la naissance des veaux.\"},{\" Caractéristique\":\"Facilité de vêlage\",\"Valeur (Index)\":\"102\",\"Analyse\":\"Note moyenne, réduisant les risques de complications lors du vêlage.\"},{\" Caractéristique\":\"Persistance\",\"Valeur (Index)\":\"111\",\"Analyse\":\"Excellente persistance de la production laitière tout au long de la lactation.\"},{\" Caractéristique\":\"Cellules somatiques\",\"Valeur (Index)\":\"108\",\"Analyse\":\"Bon niveau de santé des mamelles, un faible nombre de cellules somatiques est souhaitable.\"},{\" Caractéristique\":\"Fertilité maternelle\",\"Valeur (Index)\":\"103\",\"Analyse\":\"Bonne fertilité des filles de ce taureau.\"},{\" Caractéristique\":\"Vitesse de traite\",\"Valeur (Index)\":\"108\",\"Analyse\":\"Vitesse de traite rapide, peut être un avantage selon les priorités de l'exploitation.\"},{\" Caractéristique\":\"Comportement de traite\",\"Valeur (Index)\":\"117\",\"Analyse\":\"Très bon comportement lors de la traite\"},{\" Caractéristique\":\"Santé des sabots\",\"Valeur (Index)\":\"101\",\"Analyse\":\"Bonne santé des sabots.\"}]",
+        in_stock: true,
+        promotionOffer: ""
+    },
+    {
+        "srcSP": "https://res.cloudinary.com/dgizp0ygl/image/upload/v1719327778/Banners/Sepp_Pp_sa5pde.webp",
+        "title": "Sepp: Des générations sans cornes",
+        "promotion": false,
+        "subtitle": "Semence animale congelée de la race Brown Swiss",
+        "description": "Sepp *Pp est un atout précieux pour tout éleveur souhaitant optimiser son troupeau avec des descendants sans cornes. Avec un GZW de 138, il garantit des performances exceptionnelles, notamment une production laitière accrue de 1004 kg, une excellente santé mammaire et une longévité supérieure. Ses filles, robustes et productives, présentent également des avantages génétiques recherchés pour la transformation fromagère. En choisissant Sepp *Pp, vous investissez dans un taureau qui combine rendement laitier, santé et durabilité, tout en assurant une amélioration significative de la qualité et de la rentabilité de l'élevage grâce à la transmission probable du gène sans cornes à sa descendance.",
+        "specification": "[{\" Caractéristique\":\"GZW\",\"Valeur (Index)\":\"138\",\"Analyse\":\"Un GZW très élevé qui témoigne de performances globales exceptionnelles\"},{\" Caractéristique\":\"Index lait (MW)\",\"Valeur (Index)\":\"122\",\"Analyse\":\"Très Bon indice, montrant que les filles de Vassri produisent beaucoup plus de lait que la moyenne.\"},{\" Caractéristique\":\"Lait\",\"Valeur (Index)\":\"+1004 kg\",\"Analyse\":\"Augmentation significative de la production laitière par rapport à la moyenne.\"},{\" Caractéristique\":\"Protéines\",\"Valeur (Index)\":\"-0.08% (+29 kg)\",\"Analyse\":\"Légère diminution en pourcentage, mais augmentation notable en kg, favorable pour la production.\"},{\" Caractéristique\":\"Matières grasses\",\"Valeur (Index)\":\"-0.09 % (+34 kg)\",\"Analyse\":\"Augmentation notable en termes de quantité de matière grasse.\"},{\" Caractéristique\":\"Valeur bouchère\",\"Valeur (Index)\":\"101\",\"Analyse\":\"Qualité acceptable de la viande des veaux issus de ce taureau.\"},{\" Caractéristique\":\"FIT (Fonctionnalité)\",\"Valeur (Index)\":\"118\",\"Analyse\":\"Très bonne note, montrant de très bonnes caractéristiques fonctionnelles.\"},{\" Caractéristique\":\"Longévité\",\"Valeur (Index)\":\"117\",\"Analyse\":\"Les filles de ce taureau vivent plus longtemps que la moyenne.\"},{\" Caractéristique\":\"Santé mamelle\",\"Valeur (Index)\":\"108\",\"Analyse\":\"Excellente santé des mamelles.\"},{\" Caractéristique\":\"Facilité de naissance\",\"Valeur (Index)\":\"113\",\"Analyse\":\"Pas de problèmes particuliers pour la naissance des veaux.\"},{\" Caractéristique\":\"Facilité de vêlage\",\"Valeur (Index)\":\"98\",\"Analyse\":\"Note moyenne, réduisant les risques de complications lors du vêlage.\"},{\" Caractéristique\":\"Persistance\",\"Valeur (Index)\":\"111\",\"Analyse\":\"Excellente persistance de la production laitière tout au long de la lactation.\"},{\" Caractéristique\":\"Cellules somatiques\",\"Valeur (Index)\":\"110\",\"Analyse\":\"Bonne santé des mamelles avec peu d'infections.\"},{\" Caractéristique\":\"Fertilité maternelle\",\"Valeur (Index)\":\"111\",\"Analyse\":\"Très bonne fertilité des filles de ce taureau.\"},{\" Caractéristique\":\"Vitesse de traite\",\"Valeur (Index)\":\"99\",\"Analyse\":\"Vitesse de traite correcte.\"},{\" Caractéristique\":\"Comportement de traite\",\"Valeur (Index)\":\"106\",\"Analyse\":\"Bon comportement lors de la traite\"},{\" Caractéristique\":\"Santé des sabots\",\"Valeur (Index)\":\"100\",\"Analyse\":\"Bonne santé des sabots.\"}]",
+        "in_stock": true,
+        "promotionOffer": ""
     }
 ]
 
@@ -1585,54 +1625,89 @@ export const partners = [
 
 export const spec = [
     {
-        "Taille":"7.5 cm",
-        "Tour de cou min": "25 cm",
-        "Tour de cou max": "28 cm",
+        " Caractéristique":"GZW",
+        "Valeur (Index)": "138",
+        "Analyse": "Un GZW très élevé qui témoigne de performances globales exceptionnelles",
     },
     {
-        "Taille":"10 cm",
-        "Tour de cou min": "22 cm",
-        "Tour de cou max": "28 cm",
+        " Caractéristique":"Index lait (MW)",
+        "Valeur (Index)": "122",
+        "Analyse": "Très Bon indice, montrant que les filles de Vassri produisent beaucoup plus de lait que la moyenne.",
     },
     {
-        "Taille":"12.5 cm",
-        "Tour de cou min": "25 cm",
-        "Tour de cou max": "33 cm",
+        " Caractéristique":"Lait",
+        "Valeur (Index)": "+1004 kg",
+        "Analyse": "Augmentation significative de la production laitière par rapport à la moyenne.",
     },
     {
-        "Taille":"15 cm",
-        "Tour de cou min": "33 cm",
-        "Tour de cou max": "41 cm",
+        " Caractéristique":"Protéines",
+        "Valeur (Index)": "-0.08% (+29 kg)",
+        "Analyse": "Légère diminution en pourcentage, mais augmentation notable en kg, favorable pour la production.",
     },
     {
-        "Taille":"17.5 cm",
-        "Tour de cou min": "35 cm",
-        "Tour de cou max": "43 cm",
+        " Caractéristique":"Matières grasses",
+        "Valeur (Index)": "-0.09 % (+34 kg)",
+        "Analyse": "Augmentation notable en termes de quantité de matière grasse.",
     },
     {
-        "Taille":"20 cm",
-        "Tour de cou min": "37",
-        "Tour de cou max": "46 cm",
+        " Caractéristique":"Valeur bouchère",
+        "Valeur (Index)": "101",
+        "Analyse": "Qualité acceptable de la viande des veaux issus de ce taureau.",
     },
     {
-        "Taille":"25 cm",
-        "Tour de cou min": "43 cm",
-        "Tour de cou max": "52 cm",
+        " Caractéristique":"FIT (Fonctionnalité)",
+        "Valeur (Index)": "118",
+        "Analyse": "Très bonne note, montrant de très bonnes caractéristiques fonctionnelles.",
     },
     {
-        "Taille":"30 cm",
-        "Tour de cou min": "47 cm",
-        "Tour de cou max": "58 cm",
+        " Caractéristique":"Longévité",
+        "Valeur (Index)": "117",
+        "Analyse": "Les filles de ce taureau vivent plus longtemps que la moyenne.",
     },
     {
-        "Taille":"35 cm",
-        "Tour de cou min": "54 cm",
-        "Tour de cou max": "70 cm",
+        " Caractéristique":"Santé mamelle",
+        "Valeur (Index)": "108",
+        "Analyse": "Excellente santé des mamelles.",
     },
     {
-        "Taille":"40 cm",
-        "Tour de cou min": "62 cm",
-        "Tour de cou max": "80 cm",
+        " Caractéristique":"Facilité de naissance",
+        "Valeur (Index)": "113",
+        "Analyse": "Pas de problèmes particuliers pour la naissance des veaux.",
+    },
+    {
+        " Caractéristique":"Facilité de vêlage",
+        "Valeur (Index)": "98",
+        "Analyse": "Note moyenne, réduisant les risques de complications lors du vêlage.",
+    },
+    {
+        " Caractéristique":"Persistance",
+        "Valeur (Index)": "111",
+        "Analyse": "Excellente persistance de la production laitière tout au long de la lactation.",
+    },
+    {
+        " Caractéristique":"Cellules somatiques",
+        "Valeur (Index)": "110",
+        "Analyse": "Bonne santé des mamelles avec peu d'infections.",
+    },
+    {
+        " Caractéristique":"Fertilité maternelle",
+        "Valeur (Index)": "111",
+        "Analyse": "Très bonne fertilité des filles de ce taureau.",
+    },
+    {
+        " Caractéristique":"Vitesse de traite",
+        "Valeur (Index)": "99",
+        "Analyse": "Vitesse de traite correcte.",
+    },
+    {
+        " Caractéristique":"Comportement de traite",
+        "Valeur (Index)": "106",
+        "Analyse": "Bon comportement lors de la traite",
+    },
+    {
+        " Caractéristique":"Santé des sabots",
+        "Valeur (Index)": "100",
+        "Analyse": "Bonne santé des sabots.",
     }
 ]
 
