@@ -203,6 +203,13 @@ function SideBar({ setSideBarOpen, sideBarOpen, setSelectedCategories, selectedC
                                                                     onChange={() => { handleCheckboxChange('tonte'); setToggle(!toggle); setCurrentPage(1) }} />
                                                                 <span className="checkmark"></span>
                                                             </label>
+                                                            <label htmlFor="complémentsBetail">
+                                                                compléments alimentaires
+                                                                <input type="checkbox" id="complémentsBetail"
+                                                                    checked={selectedCategories.includes('compléments alimentaires betail')}
+                                                                    onChange={() => { handleCheckboxChange('compléments alimentaires betail'); setToggle(!toggle); setCurrentPage(1) }} />
+                                                                <span className="checkmark"></span>
+                                                            </label>
                                                             <label htmlFor="diverse">
                                                                 divers
                                                                 <input type="checkbox" id="diverse"
@@ -310,13 +317,6 @@ function SideBar({ setSideBarOpen, sideBarOpen, setSelectedCategories, selectedC
                                                                 <input type="checkbox" id="Produits chimiques"
                                                                     checked={selectedCategories.includes('Produits chimiques')}
                                                                     onChange={() => { handleCheckboxChange('Produits chimiques'); setToggle(!toggle); setCurrentPage(1) }} />
-                                                                <span className="checkmark"></span>
-                                                            </label>
-                                                            <label htmlFor="Autres">
-                                                                Autres
-                                                                <input type="checkbox" id="Autres"
-                                                                    checked={selectedCategories.includes('Autres')}
-                                                                    onChange={() => { handleCheckboxChange('Autres'); setToggle(!toggle); setCurrentPage(1) }} />
                                                                 <span className="checkmark"></span>
                                                             </label>
                                                         </div>

@@ -65,7 +65,7 @@ const Banner = ({banner}) => {
                             <div className="h-100">
                                 <h1 className="display-6">MSA SANTÉ ANIMALE</h1>
                                 <p className="text-primary fs-5 mb-4">Soin et expertise au service de la santé animale.</p>
-                                <p>MSA Santé Animale se positionne en tant qu'acteur de référence dans le domaine de la santé animale et de la distribution d'équipements vétérinaires de pointe.
+                                <p>MSA Santé Animale se positionne en tant qu'acteur de référence dans le domaine de la santé animale et de la distribution d'équipements vétérinaires et d'élevage de pointe.
                                 </p>
                                 <p className="mb-4">Notre entreprise s'efforce continuellement d'offrir des produits et des services innovants pour répondre aux besoins variés de nos clients, dans le but ultime d'améliorer le bien-être et la santé des animaux.</p>
                                 <div className="d-flex align-items-center mb-2">
